@@ -1,0 +1,2 @@
+00 8 * * 1-5 /var/www/html/autologin_server/.venv/bin/python /var/www/html/autologin_server/autologinChronJob/logAllIn.py
+35 16 * * 1-5  /var/www/html/autologin_server/.venv//bin/python /var/www/html/autologin_server/autologinChronJob/logAllOut.py

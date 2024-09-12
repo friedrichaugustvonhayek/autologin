@@ -1,0 +1,5 @@
+mechanize
+bs4
+urllib3
+cookiejar
+mariadb
