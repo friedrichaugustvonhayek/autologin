@@ -13,7 +13,8 @@ def start_all(allCredentials, mode):
 
 def delayed_start(credentials):
     time.sleep(random.randint(1, 60*15))
-    with open("/var/www/clients/client15/web22/web/logs/"+credentials['username']+".log", 'a') as file:
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+    with open(script_directory+"/../logs/"+credentials['username']+".log", 'a') as file:
         file.write(f"in: {datetime.now()}\n")
         try:
             status = gfn.start_zeiterfassung(credentials)
@@ -25,7 +26,8 @@ def delayed_start(credentials):
 
 def delayed_stop(credentials):
     time.sleep(random.randint(1, 60*5))
-    with open("/var/www/clients/client15/web22/web/logs/"+credentials['username']+".log", 'a') as file:
+    script_directory = os.path.dirname(os.path.abspath(__file__))
+    with open(script_directory+"/../logs/"+credentials['username']+".log", 'a') as file:
         file.write(f"out: {datetime.now()}\n")
         try:
             gfn.stop_zeiterfassung(credentials)
