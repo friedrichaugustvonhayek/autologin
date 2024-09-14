@@ -1,4 +1,4 @@
-# if your privacy is less worth to you than your time, than you can reject installing your own instance and just use mine, if its still online (i will move to a different server after 2025 and will not care about this project if you don't pay enough and i will not advertise so you will most likely be screwed if you use my service. but the domain is/was once: https://autologin.lernplattform.madhacker.biz
+if your privacy is less worth to you than your time, than you can reject installing your own instance and just use mine, if its still online (i will move to a different server after 2025 and will not care about this project if you don't pay enough and i will not advertise so you will most likely be screwed if you use my service. but the domain is/was once: https://autologin.lernplattform.madhacker.biz
 
 # installation
 
